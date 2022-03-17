@@ -8,10 +8,17 @@
     <title>Document</title>
 </head>
 <body>
-<input id="bpm" placeholder="bpm" type="number">
-<input id="quartes" placeholder="quarter"type="number">
+
+bpm:<input id="bpm" placeholder="bpm" type="number">
+quartes( 96% of songs have 4 quarters ):
+<input id="quartes" placeholder="quartes"type="number" value="4">
+number of tacts:
 <input id="tacts"type="number" >
-* tacts will take around <span id="second"></span>seconds
+<span id="tactsPlace">0 </span> tacts will take around <span id="second"></span> seconds
+or enter name of the track:
+
+<input type="text" id="track">
+<link rel="stylesheet" href="style.css">
 <script src="script.js"></script>
 </body>
 </html>
