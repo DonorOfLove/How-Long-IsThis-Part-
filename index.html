@@ -8,17 +8,23 @@
     <title>Document</title>
 </head>
 <body>
+<div>Bpm:<input id="bpm" placeholder="bpm" type="number"></div>
+<div>Time signature( 96% of songs is 4/4 ):
+    <input id="quartes" placeholder="quartes" type="tel" value="4/4"></div>
+<div>Number of tacts:
+    <input id="tacts" type="number" value="1">
+</div>
 
-bpm:<input id="bpm" placeholder="bpm" type="number">
-quartes( 96% of songs have 4 quarters ):
-<input id="quartes" placeholder="quartes"type="number" value="4">
-number of tacts:
-<input id="tacts"type="number" >
-<span id="tactsPlace">0 </span> tacts will take around <span id="second">0</span> seconds
-or enter name of the track:
+<div class="ignor">
+    <span id="tactsPlace"> 1 &nbsp </span>
+    tacts will take around
+    <span id="second"> &nbsp0 &nbsp</span> seconds
+</div>
 
-<input type="text" id="track" list="<list>">
-<datalist id="<list>"></datalist>
+<div class="padding">Find song:
+    <input type="text" id="track">
+    <div id="list"></div>
+</div>
 <link rel="stylesheet" href="style.css">
 <script src="script.js"></script>
 </body>
