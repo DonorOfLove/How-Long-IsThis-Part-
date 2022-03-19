@@ -74,7 +74,7 @@ div {
 
 #list img {
     width: 15%;
-    min-width: 5vw;
+    
     margin: 0 auto;
     margin-top: 5vw;
 }
@@ -132,8 +132,10 @@ div {
     input {
         font-size: 5vw;
         height: 10vw;
-
     }
-
+}
+@media (max-height: 550px) {
+    body{min-width: 95%;
+    font-size: 4vw}
 
 }
