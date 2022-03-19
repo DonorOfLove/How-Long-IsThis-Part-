@@ -66,4 +66,3 @@ for (let el of inputs) {
         calcTime();
     }, 500));
 }
-//# sourceMappingURL=script.js.map
