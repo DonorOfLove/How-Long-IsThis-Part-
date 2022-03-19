@@ -8,23 +8,34 @@
     <title>Document</title>
 </head>
 <body>
-<div>Bpm:<input id="bpm" placeholder="bpm" type="number"></div>
-<div>Time signature( 96% of songs is 4/4 ):
-    <input id="quartes" placeholder="quartes" type="tel" value="4/4"></div>
-<div>Number of tacts:
-    <input id="tacts" type="number" value="1">
-</div>
+<div class="wrapper">
+    <div>
+        Bpm:<input id="bpm" placeholder="bpm" type="number">
+    </div>
+    <div>
+        Time signature( 96% of songs is 4/4 ):
+        <input id="quartes" placeholder="quartes" type="tel" value="4/4">
+    </div>
+    <div>
+        Number of tacts:
+        <input id="tacts" type="number" value="1">
+    </div>
 
-<div class="ignor">
-    <span id="tactsPlace"> 1 &nbsp </span>
-    tacts will take around
-    <span id="second"> &nbsp0 &nbsp</span> seconds
+    <div class="res">
+        <span id="tactsPlace">1 </span> tacts will take around
+        <span id="second">0</span> seconds
+    </div>
 </div>
-
-<div class="padding">Find song:
+<div class="find_song">Find song:
     <input type="text" id="track">
     <div id="list"></div>
 </div>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+
+
 <link rel="stylesheet" href="style.css">
 <script src="script.js"></script>
 </body>
