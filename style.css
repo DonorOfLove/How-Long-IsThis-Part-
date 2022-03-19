@@ -16,7 +16,6 @@ body {
     margin: 0 auto;
     transition: 0.5s;
     font-size: 2vw;
-
 }
 
 p:hover {
@@ -58,11 +57,13 @@ div {
     flex-direction: column;
     margin-bottom: 1vw;
 }
-.wrapper{
+
+.wrapper {
     display: flex;
     justify-content: space-around;
     height: 50%;
 }
+
 #list {
     margin: 0 auto;
     width: 60%;
@@ -73,13 +74,13 @@ div {
 
 #list img {
     width: 15%;
-    min-width: 5vw;
+    
     margin: 0 auto;
     margin-top: 5vw;
 }
 
 .find_song {
-height: 50%;
+    height: 50%;
 
 }
 
@@ -109,10 +110,11 @@ height: 50%;
 
 @media (max-width: 760px) {
     body {
- font-size: 4vw;
+        font-size: 4vw;
     }
-    #list p{
-     padding-bottom: 1vw;
+
+    #list p {
+        padding-bottom: 1vw;
         font-size: 4vw;
     }
 
@@ -121,14 +123,19 @@ height: 50%;
         height: 7vw;
     }
 }
-@media (max-width: 400px){
-    body{font-size: 5vw;
-  }
+
+@media (max-width: 400px) {
+    body {
+        font-size: 5vw;
+    }
+
     input {
         font-size: 5vw;
         height: 10vw;
-
     }
-
+}
+@media (max-height: 550px) {
+    body{min-width: 95%;
+    font-size: 4vw}
 
 }
