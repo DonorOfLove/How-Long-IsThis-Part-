@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 50%;
-    min-width: 45vh;
+    min-width: 45vw;
     height: 95%;
     color: #e34e0a;
     font-family: 'Dosis', sans-serif;
@@ -127,6 +127,7 @@ div {
 @media (max-width: 400px) {
     body {
         font-size: 5vw;
+        min-width: 95vw;
     }
 
     input {
@@ -136,6 +137,6 @@ div {
 }
 @media (max-height: 550px) {
     body{min-width: 95%;
-    font-size: 4vw}
+   }
 
 }
