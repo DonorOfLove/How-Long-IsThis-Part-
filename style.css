@@ -135,8 +135,3 @@ div {
         height: 10vw;
     }
 }
-@media (max-height: 550px) {
-    body{min-width: 95%;
-   }
-
-}
